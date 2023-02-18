@@ -12,6 +12,7 @@ target/
 .settings
 .springBeans
 .sts4-cache
+it-planet-image.tar
 
 ### IntelliJ IDEA ###
 .idea
