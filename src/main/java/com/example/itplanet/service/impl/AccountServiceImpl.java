@@ -1,6 +1,5 @@
 package com.example.itplanet.service.impl;
 
-import com.example.itplanet.exception.account.AccountAuthenticationException;
 import com.example.itplanet.exception.account.AccountIsExists;
 import com.example.itplanet.exception.account.AccountNotFound;
 import com.example.itplanet.exception.animal.AnimalIsExists;
@@ -11,24 +10,14 @@ import com.example.itplanet.model.response.AccountResponse;
 import com.example.itplanet.repository.AccountRepository;
 import com.example.itplanet.service.AccountService;
 import com.example.itplanet.service.AnimalService;
-import com.example.itplanet.service.RequestHeaderHandler;
-import jakarta.validation.ConstraintViolationException;
 import lombok.AllArgsConstructor;
 import org.springframework.data.domain.Page;
-import org.springframework.data.domain.PageImpl;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
-import org.springframework.util.StreamUtils;
-import org.springframework.web.bind.annotation.RequestHeader;
-import org.springframework.web.bind.annotation.ResponseStatus;
 
-import java.util.ArrayList;
 import java.util.List;
-import java.util.Optional;
-import java.util.stream.Collectors;
 
 @Service
 @AllArgsConstructor

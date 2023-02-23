@@ -28,4 +28,7 @@ public class AnimalType {
 
     @ManyToMany(mappedBy = "animalTypes",fetch = FetchType.LAZY)
     List<Animal> animals;
+
+    public AnimalType(Long aLong) {
+    }
 }
