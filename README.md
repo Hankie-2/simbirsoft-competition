@@ -36,7 +36,7 @@ ___
     - Creating/changing/deleting a location point for an animal
 
 ____
-# Technologies
+# :gear: Technologies
 ## This application is written in Java using the following technologies:
 - **Spring Framework** - for building Restful APIs and managing dependencies.
 - **Spring Boot** - for automatically configuring an application and running it.
@@ -47,16 +47,16 @@ ____
 - **MapStruct** - a code generator that simplifies the mapping of Java beans to each other, without requiring manual mapping code.
 - **Lombok** - a Java library that helps to reduce boilerplate code by providing annotations that generate getters, setters, constructors, and other code at compile time.
 
-# Installation
+# :wrench: Installation
 ## To run this application on your computer, you need to follow the following steps:
 1) Install Java and PostgreSQL on your computer if they are not already installed.
 2) Clone the repository on your computer.
 3) Create a PostgreSQL database and configure its settings in the **application.properties** file.
 4) Run the application using Maven with the mvn _spring-boot:run_ command.
 
-# Usage
-## After launching the application, you can use any tool to work with the API, such as Postman or cURL.
-## The API is available at http://localhost:8080/*
+# :recycle: Usage
+After launching the application, you can use any tool to work with the API, such as Postman or cURL.
+The API is available at http://localhost:8080/*
 
-# Contribution
-## If you have any ideas or fixes for this application, please create a Pull Request or Issue in this repository.
+# :grey_question: Contribution
+If you have any ideas or fixes for this application, please create a Pull Request or Issue in this repository.
